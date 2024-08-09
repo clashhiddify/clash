@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-08-10 06:00:39
+# 创建时间：2024-08-10 06:03:55
 # 使用模版：ACL4SSR.ini
-# 节点数量：50
+# 节点数量：49
 # 节点类型：vmess, vless, ss
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 ####################################
@@ -135,7 +135,6 @@ proxies:
   - {"name":"🇺🇸_US_美国_7","type":"vmess","server":"104.19.47.27","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"sni":"","network":"ws"}
   - {"name":"🇺🇸_US_美国->🇨🇦_CA_加拿大_29","type":"vmess","server":"172.64.233.17","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"sni":"","network":"ws"}
   - {"name":"🇺🇸_US_美国->🇨🇦_CA_加拿大_30","type":"vmess","server":"23.227.38.6","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"sni":"ip006.3196772.xyz","network":"ws"}
-  - {"name":"🇺🇸_US_美国_8","type":"vless","server":"104.18.5.2","port":80,"uuid":"V2LINE-TELEGRAM-CHANNEL","network":"ws"}
   - {"name":"🇺🇸_US_美国->🇷🇺_RU_俄罗斯","type":"vless","server":"104.21.94.168","port":80,"uuid":"265856ca-a97b-4340-9d87-a5b81e2bd358","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -191,7 +190,6 @@ proxy-groups:
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_29
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_30
-      - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   - name: ♻️ 自动选择
     type: url-test
@@ -247,7 +245,6 @@ proxy-groups:
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_29
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_30
-      - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   - name: 🌍 国外媒体
     type: select
@@ -303,7 +300,6 @@ proxy-groups:
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_29
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_30
-      - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   - name: 📲 电报信息
     type: select
@@ -358,7 +354,6 @@ proxy-groups:
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_29
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_30
-      - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   - name: Ⓜ️ 微软服务
     type: select
@@ -413,7 +408,6 @@ proxy-groups:
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_29
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_30
-      - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   - name: 🍎 苹果服务
     type: select
@@ -468,7 +462,6 @@ proxy-groups:
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_29
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_30
-      - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
   - name: 🎯 全球直连
     type: select
@@ -540,7 +533,6 @@ proxy-groups:
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_29
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_30
-      - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
 
 rules:
